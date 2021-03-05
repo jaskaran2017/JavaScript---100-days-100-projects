@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: lightgreen;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  height: 25vh;
+  background-color: yellow;
+  border-radius: 30%;
+}
