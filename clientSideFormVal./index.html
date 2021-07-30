@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+<form action="submit" id="form">
+    <div class="form-container">
+        <div class="formfield ">
+            <label for="name">User Name</label>
+            <input type="text" id="username" placeholder="Enter user name!">
+            <i class="far fa-check-circle"></i>
+            <i class="fas fa-exclamation-triangle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="formfield ">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter user email!">
+            <i class="far fa-check-circle"></i>
+            <i class="fas fa-exclamation-triangle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="formfield">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password!">
+            <i class="far fa-check-circle"></i>
+            <i class="fas fa-exclamation-triangle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="formfield">
+            <label for="password">Confirm Password</label>
+            <input type="password" id="password2" placeholder="confirm password">
+            <i class="far fa-check-circle"></i>
+            <i class="fas fa-exclamation-triangle"></i>
+            <small>Error message</small>
+        </div>
+        </div>
+        <button type="submit">Submit</button>
+</form>
+
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
